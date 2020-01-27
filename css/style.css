@@ -1,0 +1,60 @@
+
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*@font-face {*/
+/*    font-family: 'TM Vinograd';*/
+/*    src: url('../fonts/TMVinograd-FilledOblique.eot');*/
+/*    src: url('../fonts/TMVinograd-FilledOblique.eot?#iefix') format('embedded-opentype'),*/
+/*    url('../fonts/TMVinograd-FilledOblique.woff2') format('woff2'),*/
+/*    url('../fonts/TMVinograd-FilledOblique.woff') format('woff'),*/
+/*    url('../fonts/TMVinograd-FilledOblique.ttf') format('truetype'),*/
+/*    url('../fonts/TMVinograd-FilledOblique.svg#TMVinograd-FilledOblique') format('svg');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*!*/
+/*!*body{*!*/
+/*!*    font-family: 'TM Vinograd';*!*/
+/*!*    font-weight: 600;*!*/
+/*!*}*!*/
+/*body{*/
+/*    font-family: 'Roboto', sans-serif;*/
+
+/*h1{*/
+/*font-weight: 300}*/
+/*}*/
+/*.dox{*/
+/*    width: 600px;*/
+/*    height: 400px;*/
+/*    background: url("https://mirpozitiva.ru/uploads/posts/2016-08/medium/1472042492_01.jpg");*/
+/*}*/
