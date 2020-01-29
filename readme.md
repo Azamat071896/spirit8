@@ -19,7 +19,7 @@
     </div>
 </header>
 ```
-## Company 1, 2012-present
+## Company 1, 2019-present
 Moscow, Russia
 Financial analyst
 
@@ -29,7 +29,7 @@ Financial analyst
 * Preparing financial forecasts
 * Preparing reports for the board of management
 
-## Company 2, 2007-2011
+## Company 2, 2014-2019
 Krasnodar, Russia
 Assistant manager
 
