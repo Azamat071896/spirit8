@@ -1,11 +1,12 @@
 # Resume
-1. Kanatbekov Azama 
+1. Kanatbekov Azamat 
 1. 996703717108 kanatbekov.azamat96@gmail.com
 
 1. Responsible, concentrated, sociable, self-learning, the ability to search for the right information, team work experience, the ability to use
  documentation, the ability to read someone else's code.
 1. Html,Css,JavaScript
-```<header>
+```
+<header>
     <div class="container d-flex justify-content-between align-items-center">
         <a href="#" class="logo">spirit8</a>
         <nav class="menu">
@@ -20,7 +21,7 @@
 </header>
 ```
 ## Company 1, 2019-present
-Moscow, Russia
+Bishkek
 Financial analyst
 
 * Preparing business plans
@@ -30,7 +31,7 @@ Financial analyst
 * Preparing reports for the board of management
 
 ## Company 2, 2014-2019
-Krasnodar, Russia
+Bishkek
 Assistant manager
 
 * Providing main office with office supplies
