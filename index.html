@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,12 +18,15 @@
         <a href="#" class="logo">spirit8</a>
         <nav class="menu">
             <a class="menu-item" href="#">Home</a>
-            <a class="menu-item" href="#">About</a>
-            <a class="menu-item" href="#">Services</a>
-            <a class="menu-item" href="#">Portfolio</a>
-            <a class="menu-item" href="#">Testimonials</a>
-            <a class="menu-item" href="#">Contact</a>
+            <a class="menu-item" href="#about">About</a>
+            <a class="menu-item" href="#services">Services</a>
+            <a class="menu-item" href="#portfolio">Portfolio</a>
+            <a class="menu-item" href="#testimonials">Testimonials</a>
+            <a class="menu-item" href="#contact">Contact</a>
         </nav>
+        <div class="mobile-btn">
+            <span></span>
+        </div>
     </div>
 </header>
 <!--HEDER-->
@@ -42,7 +46,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src="./img/mac.png" alt="">
+                <img src="./img/mac.png" alt="" class="about-img">
             </div>
             <div class="col-lg-6">
                 <h4 class="about__title__h4 ml-5"> About us</h4>
@@ -385,5 +389,7 @@
     </div>
 </section>
 <!--FOOTER-->
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>

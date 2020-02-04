@@ -1,0 +1,247 @@
+@media (max-width: 992px) {
+    .mobile-btn{
+        display: flex;
+        z-index: 12;
+    }
+
+    .show-mobile-btn span{
+        background: transparent;
+    }
+    .show-mobile-btn span:before,
+    .show-mobile-btn span:after{
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .show-mobile-btn span:before{
+        transform: rotate(45deg);
+    }
+    .show-mobile-btn span:after{
+        transform: rotate(-45deg);
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: #d4781a;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: -100%;
+        z-index: 11;
+        transition: .7s;
+    }
+    .show-menu{
+        right: 0;
+    }
+    .about-button{
+        position: relative;
+        top: -50px;
+        left: 60%;
+    }
+    .team-title:before{
+        position: absolute;
+        left: 44%;
+    }
+    .team-title:after{
+        position: absolute;
+        left: 45%;
+    }
+    .services-title-title:after{
+        position: absolute;
+        left: 47.2%;
+    }
+    .clients-list-item{
+        display: inline-block;
+        margin: 25px 15px;
+    }
+    .portfolio-icon img{
+        width: 100%;
+    }
+    .portfolio-icon-1{
+        position: relative;
+        left: 53%;
+    }
+    .portfolio-icon-2{
+        position: relative;
+        left: 68.5%;
+    }
+    .portfolio-icon-3{
+        position: relative;
+        left: 87%;
+    }
+    #contact {
+        margin: 0 100px;
+    }
+    .form-input {
+        width: 269px;
+    }
+    .form-input-1 {
+        width: 270px;
+    }
+    .form-input-2 {
+        width: 140%;
+    }
+    .contact-form-description-email {
+        margin-left: 33px;
+    }
+    .form-button {
+        margin-left: 127.5%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about-img{
+        width: 120%;
+    }
+    .about-button{
+        position: relative;
+        left: 70%;
+    }
+
+    .form-input-2 {
+        width: 570px
+    }
+    .portfolio-icon-1{
+        position: relative;
+        left: 37%;
+    }
+    .portfolio-icon-2{
+        position: relative;
+        left: 57.5%;
+    }
+    .portfolio-icon-3{
+        position: relative;
+        left: 82%;
+    }
+    .form-input {
+        width: 269px;
+    }
+    .form-input-1 {
+        width: 269px;
+        position: relative;
+        bottom: 64px;
+        left:33px;
+    }
+    .contact-form-description-email {
+        margin-left: 33px;
+    }
+    .form-button {
+        margin-left: 127.5%;
+    }
+}
+@media screen and (max-width:480px){
+    .about-img{
+        width: 100%;
+    }
+
+    .about-button {
+        position: relative;
+        left: 0;
+        top: -5px;
+    }
+    .about__title:before {
+        position: absolute;
+        left: 70px;
+    }
+    .team-title:before {
+        position: absolute;
+        left: 40%;
+    }
+    .team-title:after {
+        position: absolute;
+        left: 42%;
+    }
+    .services-title-title:before {
+        position: absolute;
+        top: 80px;
+        left: 38%;
+    }
+    .services-title-title:after {
+        position: absolute;
+        top: 87px;
+        left: 40.2%;
+    }
+
+    .form-input-2 {
+        width: 392px
+    }
+    .portfolio-icon-1{
+        position: relative;
+        left: 38%;
+        top: -40px;
+    }
+    .portfolio-icon-2 {
+        position: relative;
+        left: 62.5%;
+        top: -54px;
+    }
+    .portfolio-icon-3{
+        position: relative;
+        left: 90%;
+        top: -68px;
+    }
+    .form-input {
+        width: 180px;
+    }
+    .form-input-1 {
+        width: 188px;
+        position: relative;
+        bottom: 64px;
+        left:23px;
+    }
+    .contact-form-description-email {
+        margin-left: 23px;
+    }
+    .form-button {
+        margin-left: 107%;
+    }
+    #contact {
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .about__title:before {
+        position: absolute;
+        left: 2px;
+        top: 90px;
+    }
+    .portfolio-icon-1 {
+        position: relative;
+        left: 42%;
+        top: -40px;
+    }
+    .portfolio-icon-2 {
+        position: relative;
+        left: 75.5%;
+        top: -54px;
+    }
+    .portfolio-icon-3 {
+        position: relative;
+        left: 98%;
+        top: -69px;
+    }
+    .team-title:before {
+        position: absolute;
+        left: 40%;
+        top: 82px;
+    }
+    .team-title:after {
+        position: absolute;
+        left: 43%;
+        top: 90px;
+    }
+    .form-input {
+        width: 114px;
+    }
+    .form-input-1 {
+        width: 125px;
+    }
+    .form-input-2 {
+        width: 277px;
+    }
+    .form-button {
+        margin-left: 81%;
+    }
+}
